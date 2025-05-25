@@ -30,7 +30,7 @@ The goal of this repository is to share code and data related to the moment-base
 
 ## Building 
 
-We propose an optimized dimensionality reduction (ODR) approach to solve the moment-based distributionally robust optimization (DRO) problem, which leads to two outer and one inner approximations of the original DRO problem. As these approximations are nonconvex  semidefinite programming (SDP) problems, we develop modified Alternating Direction Method of Multipliers (ADMM) algorithms to solve them efficiently. We demonstrate the effectiveness of our proposed ODR approach and algorithm in solving multiproduct newsvendor and production-transportation problems.
+We propose an optimized dimensionality reduction (ODR) approach to solve the moment-based distributionally robust optimization (DRO) problem, which leads to two outer and one inner approximations of the original DRO problem. As these approximations are nonconvex  semidefinite programming (SDP) problems, we develop modified alternating direction method of multipliers (ADMM) algorithms to solve them efficiently. We demonstrate the effectiveness of our proposed ODR approach and algorithm in solving multiproduct newsvendor and production-transportation problems.
 
 ## Prerequisites
 
