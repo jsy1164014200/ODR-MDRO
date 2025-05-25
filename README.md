@@ -123,9 +123,9 @@ The results are available in the [results](results) directory, which includes th
 
 This folder includes two folders.
 - `PCA`: This folder includes the results of three benchmark approaches. Each file (named "m") records the results of using three benchmark approaches to solve multiproduct newsvendor problems with m products. For example, the file "100" records the results of solving 5 instances with the prefix "100-" in the folder "data/MultiproductNewsvendor." Each file includes a table and each row records the results of an instance. The first and second columns are the objective value and computational time of the first benchmark approach (Mosek). The third and fourth columns are the objective value and computational time of the second benchmark approach (Low-rank Algorithm). The remaining columns are the objective values and computational times of PCA approximations with reduced dimension $m_1$ equals $100\% \times {\rm{dim}}(\boldsymbol{\xi})$, 
-$80 \% \times dim(\boldsymbol{\xi})$, 
-$60 \% \times dim(\boldsymbol{\xi})$, 
-$40 \% \times dim(\boldsymbol{\xi})$, $20 \% \times dim(\boldsymbol{\xi})$, and $K$, respectively.
+$80 \% \ x \ dim(\boldsymbol{\xi})$, 
+$60 \% \ x \ dim(\boldsymbol{\xi})$, 
+$40 \% \ x \ dim(\boldsymbol{\xi})$, $20 \% \ x \ dim(\boldsymbol{\xi})$, and $K$, respectively.
 - `ADMM`: This folder includes the results of our proposed ODR approach. Each file (named "m") records the results of using the ODR approach to solve multiproduct newsvendor problems with m products. For example, the file "100" records the results of solving 5 instances with the prefix "100-" in the folder "data/MultiproductNewsvendor." Each file includes a table and each row records the results of an instance. The first, second, and third columns are the lower bound, computational time, and theoretical gap of the ODR-LB. The fourth, fifth, and sixth columns are the upper bound, computational time, and theoretical gap of the ODR-UB. The remaining columns are the lower bound, computational time, and theoretical gap of the ODR-RLB.
 
 
