@@ -1,0 +1,239 @@
+* Starting YALMIP global branch & bound.
+* Upper solver     : fmincon
+* Lower solver     : MOSEK
+* LP solver        : MOSEK
+* -Extracting bounds from model
+* -Perfoming root-node bound propagation
+* -Calling upper solver (found a solution, objective -706.9628)
+* -Branch-variables : 204
+* -More root-node bound-propagation
+* -Performing LP-based bound-propagation 
+* -And some more root-node bound-propagation
+* Starting the b&b process
+ Node       Upper       Gap(%)       Lower     Open   Time
+    1 :  -7.87085E+02    52.71   -1.35115E+03    2   1016s  Improved solution found by upper solver  
+    2 :  -7.87085E+02    52.71   -1.35115E+03    3   1184s    
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.830882e-16. 
+> In backsolveSys
+In solveAugSystem
+In leastSquaresLagrangeMults
+In barrier
+In fmincon (line 663)
+In callfmincon (line 95)
+In global_solve_upper (line 84)
+In solve_upper_in_node (line 9)
+In bmibnb_branch_and_bound (line 432)
+In bmibnb (line 545)
+In solvesdp (line 423)
+In optimize (line 31)
+In yalmipBiSDP (line 45)
+ 
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.830882e-16. 
+> In backsolveSys
+In solveAugSystem
+In leastSquaresLagrangeMults
+In nlpStopTest
+In barrier
+In fmincon (line 663)
+In callfmincon (line 95)
+In global_solve_upper (line 84)
+In solve_upper_in_node (line 9)
+In bmibnb_branch_and_bound (line 432)
+In bmibnb (line 545)
+In solvesdp (line 423)
+In optimize (line 31)
+In yalmipBiSDP (line 45)
+ 
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.830882e-16. 
+> In backsolveSys
+In solveAugSystem
+In normalCauchyStep
+In normalStep
+In computeTrialStep
+In barrier
+In fmincon (line 663)
+In callfmincon (line 95)
+In global_solve_upper (line 84)
+In solve_upper_in_node (line 9)
+In bmibnb_branch_and_bound (line 432)
+In bmibnb (line 545)
+In solvesdp (line 423)
+In optimize (line 31)
+In yalmipBiSDP (line 45)
+ 
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.830882e-16. 
+> In backsolveSys
+In solveAugSystem
+In normalNewtonStep
+In normalStep
+In computeTrialStep
+In barrier
+In fmincon (line 663)
+In callfmincon (line 95)
+In global_solve_upper (line 84)
+In solve_upper_in_node (line 9)
+In bmibnb_branch_and_bound (line 432)
+In bmibnb (line 545)
+In solvesdp (line 423)
+In optimize (line 31)
+In yalmipBiSDP (line 45)
+ 
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.830882e-16. 
+> In backsolveSys
+In solveAugSystem
+In projConjGrad
+In projConjGrad
+In tangentialStep
+In computeTrialStep
+In barrier
+In fmincon (line 663)
+In callfmincon (line 95)
+In global_solve_upper (line 84)
+In solve_upper_in_node (line 9)
+In bmibnb_branch_and_bound (line 432)
+In bmibnb (line 545)
+In solvesdp (line 423)
+In optimize (line 31)
+In yalmipBiSDP (line 45)
+ 
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.830882e-16. 
+> In backsolveSys
+In solveAugSystem
+In projConjGrad
+In projConjGrad
+In tangentialStep
+In computeTrialStep
+In barrier
+In fmincon (line 663)
+In callfmincon (line 95)
+In global_solve_upper (line 84)
+In solve_upper_in_node (line 9)
+In bmibnb_branch_and_bound (line 432)
+In bmibnb (line 545)
+In solvesdp (line 423)
+In optimize (line 31)
+In yalmipBiSDP (line 45)
+ 
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.830882e-16. 
+> In backsolveSys
+In solveAugSystem
+In projConjGrad
+In projConjGrad
+In tangentialStep
+In computeTrialStep
+In barrier
+In fmincon (line 663)
+In callfmincon (line 95)
+In global_solve_upper (line 84)
+In solve_upper_in_node (line 9)
+In bmibnb_branch_and_bound (line 432)
+In bmibnb (line 545)
+In solvesdp (line 423)
+In optimize (line 31)
+In yalmipBiSDP (line 45)
+ 
+    3 :  -1.28648E+03     4.90   -1.35115E+03    4   1245s  Improved solution found by upper solver  
+    4 :  -1.28649E+03     4.90   -1.35115E+03    5   1392s  Improved solution found by upper solver  
+    5 :  -1.28649E+03     4.90   -1.35115E+03    6   1606s    
+    6 :  -1.28649E+03     4.90   -1.35115E+03    7   1636s    
+    7 :  -1.28649E+03     4.32   -1.34332E+03    8   1702s    
+    8 :  -1.28649E+03     4.32   -1.34332E+03    9   1939s    
+    9 :  -1.28649E+03     4.32   -1.34332E+03    8   1939s  Poor lower bound  
+   10 :  -1.28649E+03     4.32   -1.34332E+03    7   1939s  Poor lower bound  
+   11 :  -1.28649E+03     4.32   -1.34332E+03    8   2101s    
+   12 :  -1.28649E+03     4.32   -1.34332E+03    9   2305s    
+   13 :  -1.28649E+03     4.32   -1.34332E+03    8   2306s  Poor lower bound  
+   14 :  -1.28649E+03     4.32   -1.34332E+03    9   2474s    
+   15 :  -1.28649E+03     4.32   -1.34332E+03    8   2474s  Poor lower bound  
+   16 :  -1.28649E+03     4.32   -1.34332E+03    7   2475s  Poor lower bound  
+   17 :  -1.28649E+03     4.32   -1.34332E+03    8   2662s    
+   18 :  -1.28649E+03     4.32   -1.34332E+03    9   2754s    
+   19 :  -1.28649E+03     4.32   -1.34332E+03   10   2817s    
+   20 :  -1.28649E+03     4.32   -1.34332E+03   11   3040s    
+   21 :  -1.28649E+03     4.32   -1.34332E+03   12   3138s  Improved solution found by upper solver  
+   22 :  -1.28649E+03     4.32   -1.34332E+03   13   3138s    
+   23 :  -1.28649E+03     4.32   -1.34332E+03   14   3174s    
+   24 :  -1.28649E+03     4.32   -1.34332E+03   15   3174s    
+   25 :  -1.28649E+03     4.32   -1.34332E+03   16   3253s    
+   26 :  -1.28649E+03     4.32   -1.34332E+03   17   3253s    
+   27 :  -1.28649E+03     4.32   -1.34332E+03   18   3545s    
+   28 :  -1.28649E+03     4.32   -1.34332E+03   19   3545s    
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.132051e-16. 
+> In backsolveSys
+In solveKKTsystem
+In computeTrialStep
+In barrier
+In fmincon (line 663)
+In callfmincon (line 95)
+In global_solve_upper (line 84)
+In solve_upper_in_node (line 9)
+In bmibnb_branch_and_bound (line 432)
+In bmibnb (line 545)
+In solvesdp (line 423)
+In optimize (line 31)
+In yalmipBiSDP (line 45)
+ 
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+2.199425e-16. 
+> In backsolveSys
+In solveKKTsystem
+In computeTrialStep
+In barrier
+In fmincon (line 663)
+In callfmincon (line 95)
+In global_solve_upper (line 84)
+In solve_upper_in_node (line 9)
+In bmibnb_branch_and_bound (line 432)
+In bmibnb (line 545)
+In solvesdp (line 423)
+In optimize (line 31)
+In yalmipBiSDP (line 45)
+ 
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+2.153542e-16. 
+> In backsolveSys
+In solveKKTsystem
+In computeTrialStep
+In barrier
+In fmincon (line 663)
+In callfmincon (line 95)
+In global_solve_upper (line 84)
+In solve_upper_in_node (line 9)
+In bmibnb_branch_and_bound (line 432)
+In bmibnb (line 545)
+In solvesdp (line 423)
+In optimize (line 31)
+In yalmipBiSDP (line 45)
+ 
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+2.153542e-16. 
+> In backsolveSys
+In solveKKTsystem
+In computeTrialStep
+In barrier
+In fmincon (line 663)
+In callfmincon (line 95)
+In global_solve_upper (line 84)
+In solve_upper_in_node (line 9)
+In bmibnb_branch_and_bound (line 432)
+In bmibnb (line 545)
+In solvesdp (line 423)
+In optimize (line 31)
+In yalmipBiSDP (line 45)
+ 
+   29 :  -1.28649E+03     4.32   -1.34332E+03   20   3839s    
+* Finished.  Cost: -1286.4909 (lower bound: -1343.3182, relative gap 4.3185%)
+* Termination due to time limit 
+* Timing: 83% spent in upper solver (21 problems solved)
+*         1% spent in lower solver (437 problems solved)
+*         1% spent in LP-based domain reduction (0 problems solved)
+*         1% spent in upper heuristics (20 candidates tried)
+   3.8400e+03

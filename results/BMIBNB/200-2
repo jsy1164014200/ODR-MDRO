@@ -1,0 +1,21 @@
+* Starting YALMIP global branch & bound.
+* Upper solver     : fmincon
+* Lower solver     : MOSEK
+* LP solver        : MOSEK
+* -Extracting bounds from model
+* -Perfoming root-node bound propagation
+* -Calling upper solver (found a solution, objective -4841.2877)
+* -Branch-variables : 404
+* -More root-node bound-propagation
+* -Performing LP-based bound-propagation 
+* -And some more root-node bound-propagation
+* Starting the b&b process
+ Node       Upper       Gap(%)       Lower     Open   Time
+    1 :  -4.84129E+03     0.00   -4.84129E+03    0   9941s  Time-out during bound propagation  
+* Finished.  Cost: -4841.2877 (lower bound: -4841.2877, relative gap 0%)
+* Termination due to time limit 
+* Timing: 16% spent in upper solver (1 problems solved)
+*         2% spent in lower solver (808 problems solved)
+*         0% spent in LP-based domain reduction (0 problems solved)
+*         0% spent in upper heuristics (0 candidates tried)
+   9.9425e+03
