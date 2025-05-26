@@ -46,7 +46,7 @@ The source code is available in the [src](src) directory, which includes six fol
 - `Example1`: This folder includes the code used in Example 1. 
 - `Example2`: This folder includes the code used in Example 2. 
 - `MultiproductNewsvendor`: This folder includes the code used to solve multiproduct newsvendor problems.
-- `ProductionTransportation`: This folder includes the code used to solve production transportation problems.
+- `ProductionTransportation`: This folder includes the code used to solve production-transportation problems.
 - `Insight`: This folder includes the code used in Section 7.2.3.
 - `BMIBNB`: This folder includes the code used in Appendix F.1.
 
