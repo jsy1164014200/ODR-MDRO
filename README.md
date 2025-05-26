@@ -78,8 +78,8 @@ This folder includes the code used to solve multiproduct newsvendor problems.
 
 ### ProductionTransportation 
 
-This folder includes the code used to solve production transportation problems.
-- `generate_data.m`: Defines the procedure to generate data of production transportation problems.
+This folder includes the code used to solve production-transportation problems.
+- `generate_data.m`: Defines the procedure to generate data of production-transportation problems.
 - `exe_admm.m`: Defines the procedure to use Algorithm 1 to solve our proposed outer and inner approximations under the ODR approach. 
 - `exe_primary_dual_pca_vs.m`: Defines the procedure to use the Mosek solver with default settings to solve the original problem and its PCA approximations. 
 - `covTransformerDecomposer.m`: Defines the `covTransformerDecomposer` function, which does eigenvalue decomposition for $\Sigma$.
@@ -105,7 +105,7 @@ This folder includes the code used in Appendix F.1.
 
 The instance data is available in the [data](data) directory, which includes two folders.
 - `MultiproductNewsvendor`: This folder includes all instances of multiproduct newsvendor problems. Each instance (denoted by "m_i") represents a multiproduct newsvendor problem with m products. Note that i is the instance id. 
-- `ProductionTransportation`: This folder includes all instances of production transportation problems. Each instance (denoted by "K_G_H_i") represents a production transportation problem with G suppliers and H customers. Note that K is the number of pieces in the objective function and i is the instance id. 
+- `ProductionTransportation`: This folder includes all instances of production-transportation problems. Each instance (denoted by "K_G_H_i") represents a production-transportation problem with G suppliers and H customers. Note that K is the number of pieces in the objective function and i is the instance id. 
 
 Note that the data used in Appendix F.1 is also included in the folder `MultiproductNewsvendor`. The six instances in Table F2 are `100-1`, `100-2`, `100-3`, `200-1`, `200-2`, and `200-3`. 
 
@@ -116,7 +116,7 @@ Note that the data used in Example 1, Example 2, and Insight (Section 7.2.3) is 
 
 The results are available in the [results](results) directory, which includes three folders.
 - `MultiproductNewsvendor`: This folder includes all results of multiproduct newsvendor problems. 
-- `ProductionTransportation`: This folder includes all results of production transportation problems. 
+- `ProductionTransportation`: This folder includes all results of production-transportation problems. 
 - `BMIBNB`: This folder includes the results of using the BMIBNB solver to solve the six instances in Table F2. This folder includes six files. Each file records the log information given by the BMIBNB solver. For example, the file `100-1` records the log information of using the BMIBNB solver to solve the instance `data/MultiproductNewsvendor/100-1`.
 
 ### MultiproductNewsvendor
@@ -128,11 +128,11 @@ This folder includes two folders.
 
 ### ProductionTransportation
 
-This folder includes three folders: `K5`, `K10`, and `K15`. They include the results of production transportation problems when $K=5$, $K=10$, and $K=15$, respectively. Each folder includes two folders. The `PCA` folder includes the results of three benchmark approaches. The `ADMM` folder includes the results of our proposed ODR approach. 
-- `K5/PCA`, `K10/PCA`, and `K15/PCA`: These folders include the results of three benchmark approaches. Each file (named "K-G-H") records the results of using three benchmark approaches to solve production transportation problems with G suppliers and H customers. For example, the file "5-4-25" records the results of solving 5 instances with the prefix "5-4-25-" in the folder "data/ProductionTransportation." Each file includes a table and each row records the results of an instance. The first and second columns are the objective value and computational time of the first benchmark approach (Mosek). The third and fourth columns are the objective value and computational time of the second benchmark approach (Low-rank Algorithm). The remaining columns are the objective values and computational times of PCA approximations.
-- `K5/ADMM/m1=3`, `K5/ADMM/m1=5`, `K5/ADMM/m1=7`: These folders include the results of using our proposed ODR approach to solve production transportation problems when $K=5$. Note that `m1=3` means that we set $m_1=3$ in our proposed ODR approach. These results provide sensitivity analyses for our ODR approach. Each file (named "K-G-H") records the results of using the ODR approach to solve production transportation problems with G suppliers and H customers. For example, the file "5-4-25" records the results of solving 5 instances with the prefix "5-4-25-" in the folder "data/ProductionTransportation." Each file includes a table and each row records the results of an instance. The first, second, and third columns are the lower bound, computational time, and theoretical gap of the ODR-LB. The fourth, fifth, and sixth columns are the upper bound, computational time, and theoretical gap of the ODR-UB. The remaining columns are the lower bound, computational time, and theoretical gap of the ODR-RLB.
-- `K10/ADMM/m1=8`, `K10/ADMM/m1=10`, `K10/ADMM/m1=12`: These folders include the results of using our proposed ODR approach to solve production transportation problems when $K=10$. Note that `m1=8` means that we set $m_1=8$ in our proposed ODR approach.
-- `K15/ADMM/m1=13`, `K15/ADMM/m1=15`, `K15/ADMM/m1=17`: These folders include the results of using our proposed ODR approach to solve production transportation problems when $K=15$. Note that `m1=13` means that we set $m_1=13$ in our proposed ODR approach.
+This folder includes three folders: `K5`, `K10`, and `K15`. They include the results of production-transportation problems when $K=5$, $K=10$, and $K=15$, respectively. Each folder includes two folders. The `PCA` folder includes the results of three benchmark approaches. The `ADMM` folder includes the results of our proposed ODR approach. 
+- `K5/PCA`, `K10/PCA`, and `K15/PCA`: These folders include the results of three benchmark approaches. Each file (named "K-G-H") records the results of using three benchmark approaches to solve production-transportation problems with G suppliers and H customers. For example, the file "5-4-25" records the results of solving 5 instances with the prefix "5-4-25-" in the folder "data/ProductionTransportation." Each file includes a table and each row records the results of an instance. The first and second columns are the objective value and computational time of the first benchmark approach (Mosek). The third and fourth columns are the objective value and computational time of the second benchmark approach (Low-rank Algorithm). The remaining columns are the objective values and computational times of PCA approximations.
+- `K5/ADMM/m1=3`, `K5/ADMM/m1=5`, `K5/ADMM/m1=7`: These folders include the results of using our proposed ODR approach to solve production-transportation problems when $K=5$. Note that `m1=3` means that we set $m_1=3$ in our proposed ODR approach. These results provide sensitivity analyses for our ODR approach. Each file (named "K-G-H") records the results of using the ODR approach to solve production-transportation problems with G suppliers and H customers. For example, the file "5-4-25" records the results of solving 5 instances with the prefix "5-4-25-" in the folder "data/ProductionTransportation." Each file includes a table and each row records the results of an instance. The first, second, and third columns are the lower bound, computational time, and theoretical gap of the ODR-LB. The fourth, fifth, and sixth columns are the upper bound, computational time, and theoretical gap of the ODR-UB. The remaining columns are the lower bound, computational time, and theoretical gap of the ODR-RLB.
+- `K10/ADMM/m1=8`, `K10/ADMM/m1=10`, `K10/ADMM/m1=12`: These folders include the results of using our proposed ODR approach to solve production-transportation problems when $K=10$. Note that `m1=8` means that we set $m_1=8$ in our proposed ODR approach.
+- `K15/ADMM/m1=13`, `K15/ADMM/m1=15`, `K15/ADMM/m1=17`: These folders include the results of using our proposed ODR approach to solve production-transportation problems when $K=15$. Note that `m1=13` means that we set $m_1=13$ in our proposed ODR approach.
 - `K10/ADMM/10-5-20-m1=2`, `K10/ADMM/10-5-20-m1=4`, ..., and `K10/ADMM/10-5-20-m1=40`: These files include results of sensitivity analyses presented in Figure 1. 
 
 
