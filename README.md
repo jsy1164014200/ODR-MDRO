@@ -38,27 +38,27 @@ We propose an optimized dimensionality reduction (ODR) approach to solve the mom
 ## Structure
 
 The source code is available in the [src](src) directory, which includes six folders.
-- `Example1`: This folder includes the code used in Example 1. 
-- `Example2`: This folder includes the code used in Example 2. 
-- `MultiproductNewsvendor`: This folder includes the code used to solve multiproduct newsvendor problems.
-- `ProductionTransportation`: This folder includes the code used to solve production-transportation problems.
+- `Example1`: This folder includes the code used in Example 1 in Section 2. 
+- `Example2`: This folder includes the code used in Example 2 in Appendix C.5. 
+- `MultiproductNewsvendor`: This folder includes the code used to solve multiproduct newsvendor problems in Section 7.2.2.
+- `ProductionTransportation`: This folder includes the code used to solve production-transportation problems in Section 7.2.2.
 - `Insight`: This folder includes the code used in Section 7.2.3.
 - `BMIBNB`: This folder includes the code used in Appendix F.1.
 
 ### Example1
 
-This folder includes the code used in Example 1. 
+This folder includes the code used in Example 1 in Section 2.  
 - `CVaR.m`: Defines the procedure to solve Problem (8) and its PCA approximations in Example 1. 
 - `CVaRPrimary.m`: Defines the `CVaRPrimary` function, which solves the SDP reformulation in Example 1. 
 
 ### Example2
 
-This folder includes the code used in Example 2. 
+This folder includes the code used in Example 2 in Appendix C.5. 
 - `SDP_fixX.m`: Defines the `SDP_fixX` function, which solves Problems (55) and (56) in Example 2. 
 
 ### MultiproductNewsvendor
 
-This folder includes the code used to solve multiproduct newsvendor problems.
+This folder includes the code used to solve multiproduct newsvendor problems in Section 7.2.2.
 - `GenerateData.m`: Defines the procedure to generate data of multiproduct newsvendor problems.
 - `ADMMnewsvendor.m`: Defines the procedure to use Algorithm 1 to solve two outer and one inner approximations under the ODR approach. 
 - `PrimaryandPCA.m`: Defines the procedure to use the Mosek solver with default settings to solve the original DRO problem and its PCA approximations. 
@@ -73,7 +73,7 @@ This folder includes the code used to solve multiproduct newsvendor problems.
 
 ### ProductionTransportation 
 
-This folder includes the code used to solve production-transportation problems.
+This folder includes the code used to solve production-transportation problems in Section 7.2.2.
 - `generate_data.m`: Defines the procedure to generate data of production-transportation problems.
 - `exe_admm.m`: Defines the procedure to use Algorithm 1 to solve our proposed outer and inner approximations under the ODR approach. 
 - `exe_primary_dual_pca_vs.m`: Defines the procedure to use the Mosek solver with default settings to solve the original problem and its PCA approximations. 
