@@ -4,11 +4,7 @@ The software and data in this repository are a snapshot of the software and data
 
 ## Cite
 
-To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
-
-https://doi.org/10.1287/ijoc.2024.0719
-
-https://doi.org/10.1287/ijoc.2024.0719.cd
+To cite the contents of this repository, please cite both the paper and this repo.
 
 Below is the BibTex for citing this snapshot of the repository.
 
@@ -18,7 +14,6 @@ Below is the BibTex for citing this snapshot of the repository.
   publisher =     {Operations Research},
   title =         {Optimized Dimensionality Reduction for Moment-based Distributionally Robust Optimization},
   year =          {2025},
-  doi =           {10.1287/ijoc.2024.0719.cd},
   url =           {https://github.com/jsy1164014200/ODR-MDRO},
   note =          {Available for download at https://github.com/jsy1164014200/ODR-MDRO},
 }  
