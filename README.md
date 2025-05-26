@@ -133,7 +133,7 @@ This folder includes three folders: `K5`, `K10`, and `K15`. They include the res
 
 ## Run
 
-To execute the code, we just need to run the corresponding code file in MATLAB. For example, if we would like to use our ODR approach to solve the multiproduct newsvendor problem with 100 products, we can modify line 10 in the file `src/MultiproductNewsvendor/ADMMnewsvendor` into `load("../../data/MultiproductNewsvendor/100-"+iterationNumber)` and run 
+To execute the code, we just need to run the corresponding code file in MATLAB. For example, if we would like to use our ODR approach to solve the multiproduct newsvendor problem with 100 products, we can modify line 10 in the file `src/MultiproductNewsvendor/ADMMnewsvendor` into `load("../../data/MultiproductNewsvendor/100-"+instanceNumber)` and run 
 ```bash
 cd src/MultiproductNewsvendor
 ./ADMMnewsvendor
