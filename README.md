@@ -117,7 +117,7 @@ Note that the data used in Example 1, Example 2, and Insight (Section 7.2.3) is 
 The results are available in the [results](results) directory, which includes three folders.
 - `MultiproductNewsvendor`: This folder includes all results of multiproduct newsvendor problems. 
 - `ProductionTransportation`: This folder includes all results of production-transportation problems. 
-- `BMIBNB`: This folder includes the results of using the BMIBNB solver to solve the six instances in Table F2. This folder includes six files. Each file records the log information given by the BMIBNB solver. For example, the file `100-1` records the log information of using the BMIBNB solver to solve the instance `data/MultiproductNewsvendor/100-1`.
+- `BMIBNB`: This folder includes the results of using the BMIBNB solver to solve the six instances in Table F2. This folder includes six files. Each file records the log information of using the BMIBNB solver to solve an instance. For example, the file `100-1` records the log information of using the BMIBNB solver to solve the instance `data/MultiproductNewsvendor/100-1`.
 
 ### MultiproductNewsvendor
 
