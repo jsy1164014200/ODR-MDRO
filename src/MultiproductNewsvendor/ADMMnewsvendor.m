@@ -6,8 +6,8 @@ record = zeros (10,100);
 Number = 5; 
 ID = 1;
 
-for iterationNumber = 1 : Number
-    load("./Data/2000-"+iterationNumber) % TODO 
+for instanceNumber = 1 : Number
+    load("./Data/2000-"+instanceNumber) % TODO 
     %%%%%%%%% Solving original and LB problems and saving their results %%%%%%
     
     f_opt1 = 1;
