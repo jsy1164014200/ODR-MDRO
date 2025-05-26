@@ -4,8 +4,8 @@ clc;
 record = zeros(10,100);    
 Number = 3;  
 
-for iterationNumber = 1 : Number
-    load("./Data/15-8-25-"+iterationNumber) % TODO
+for instanceNumber = 1 : Number
+    load("./Data/15-8-25-"+instanceNumber) % TODO
     m1=17; % TODO
 
     B = zeros(data_size,m1);
